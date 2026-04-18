@@ -1,4 +1,4 @@
-# 🥗 MealPrep AI: Nutritional Amortization Engine
+# 🥗 E-Meal.ai: Nutritional Amortization Engine
 By: Kavin Manivannan, Nate Theis, Jacob Jones
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
