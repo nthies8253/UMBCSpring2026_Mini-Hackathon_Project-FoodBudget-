@@ -5,19 +5,19 @@ By: Kavin Manivannan, Nate Theis, Jacob Jones
 [![Gemini](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-orange.svg)](https://ai.google.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**MealPrep AI** is a biometric financial engineering tool designed to combat food insecurity. It transforms a simple Google Form submission into a rigorous, math-validated "Survival Grocery Plan" that is emailed directly to the user as a professionally formatted Google Doc.
+**E-Meal.ai** is a biometric financial engineering tool designed to combat food insecurity. It transforms a simple Google Form submission into a rigorous, math-validated "Survival Grocery Plan" that is emailed directly to the user as a professionally formatted Google Doc.
 
 ---
 
 ## ⚠️ The Problem: The Student Budget Gap
 The average college student spends roughly **$11–$15 per meal** when eating out. Over a 14-day period, that totals approximately **$462**. 
 
-**MealPrep AI reduces that 14-day cost to ~$17.** This represents a **96.3% reduction in food expenditure**, effectively reclaiming hundreds of dollars for tuition, rent, and emergency savings. For many, the choice between buying a textbook and eating a healthy meal is a daily reality; this tool eliminates that trade-off through algorithmic shopping.
+**E-Meal.ai reduces that 14-day cost to ~$17.** This represents a **96.3% reduction in food expenditure**, effectively reclaiming hundreds of dollars for tuition, rent, and emergency savings. For many, the choice between buying a textbook and eating a healthy meal is a daily reality; this tool eliminates that trade-off through algorithmic shopping.
 
 ---
 
 ## 🚀 The Mission
-MealPrep AI solves the "Analysis Paralysis" of grocery shopping on a shoestring budget by:
+E-Meal.ai solves the "Analysis Paralysis" of grocery shopping on a shoestring budget by:
 1.  **Calculating TDEE:** Using the Mifflin-St Jeor equation to find the user's exact caloric needs based on height, weight, age, and gender.
 2.  **Live Market Grounding:** Using AI-powered web search to find real-time prices at local stores (Aldi, Walmart, Giant, Lidl) in the user's specific Maryland county.
 3.  **Financial Amortization:** Breaking down a total budget (e.g., $20) into a "Daily Burn Rate" to ensure the user never runs out of food before their next paycheck.
@@ -26,7 +26,7 @@ MealPrep AI solves the "Analysis Paralysis" of grocery shopping on a shoestring 
 
 ## 🛠️ Tech Stack
 * **Core Engine:** Python (Google Colab Environment)
-* **Intelligence:** Gemini 2.5 Flash (via `google-genai` SDK)
+* **AI Agent:** Gemini 2.5 Flash (via `google-genai` SDK)
 * **Tools:** Google Search Grounding for live grocery pricing
 * **Database/Trigger:** Google Sheets API (via `gspread`)
 * **Output Suite:** Google Docs API (Automated professional formatting)
@@ -38,11 +38,11 @@ MealPrep AI solves the "Analysis Paralysis" of grocery shopping on a shoestring 
 
 ### 1. The Affordability Frontier
 * **Target:** Individuals with a "Daily Burn Rate" of **<$2.00/day**. 
-* **The Solution:** Most meal prep resources assume a $50+ weekly budget. MealPrep AI successfully engineered a **14-day plan for just $16.97** ($1.22/day), providing 7 staple items with verified purchase links.
+* **The Solution:** Most meal prep resources assume a $50+ weekly budget. E-Meal.ai successfully engineered a **14-day plan for just $16.97** ($1.22/day), providing 7 staple items with verified purchase links.
 
 ### 2. Time-Poverty Reduction
 * **Manual Effort:** Comparing prices across multiple stores and calculating nutritional math manually takes ~2–3 hours.
-* **MealPrep AI Speed:** Generates a complete, formatted, and emailed report in **<60 seconds**.
+* **E-Meal.ai Speed:** Generates a complete, formatted, and emailed report in **under 2 minutes**.
 
 ### 3. Nutrition Equity
 * **Calculated Accuracy:** By using **Mifflin-St Jeor**, the tool prevents "starvation budgeting." It identifies when a budget is too low (e.g., highlighting the gap between a 2036 kcal TDEE and the plan's output) and provides risk variance notes to help users find local food pantries.
