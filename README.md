@@ -1,5 +1,5 @@
 # 🥗 E-Meal.ai: Nutritional Amortization Engine
-By: Kavin Manivannan, Nate Theis, Jacob Jones
+By: Kavin Manivannan, Nate Thies, Jacob Jones
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Gemini](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-orange.svg)](https://ai.google.dev/)
